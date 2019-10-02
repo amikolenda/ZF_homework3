@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	position: relative;
+	height: 700px;
+}
+header,footer {
+	position: absolute;
+    height: 100px;
+    width: 100%;
+}
+header{
+	background-color: black;
+}
+
+footer{
+    background-color: darkred;
+    bottom: 0%;
+}
+.button {
+	float: right;
+    margin: 20px;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+    border: 2px solid white;
+    text-align: center;
+    cursor: pointer;
+}
+#logBtn:hover, #regBtn:hover {
+    background-color: #ff192e;
+}
+.logo {
+	float: left;
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    margin: 25px;
+    transition: ease .7s;
+    cursor: pointer;
+}
+.logo:hover {
+    width: 200px;
+    height: 70px;
+}
+#content {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+  background-color: #252525;
+}
+#logBox {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-color: #eeeeee;
+} 
+form {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 200px;
+    text-align: center;
+    background-color: #252525;
+}
+input{
+	margin-top: 2%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:visited{
+	color: white;
+}
+
